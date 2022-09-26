@@ -398,6 +398,9 @@ img {
 .client{
     display: flex;
 }
+.list-client{
+    margin-right: 30px;
+}
 
 .client-link {
     display: flex;
@@ -407,14 +410,14 @@ img {
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    margin-right: 30px;
+    
     cursor: pointer;
 
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
     
 }
-.client:last-child{
+.list-client:last-child{
     margin-right: 0px;
 }
 .client-link:hover .client-card{
@@ -565,10 +568,10 @@ margin-left: 70px;
 .list-btn {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .list-btn .item {
     margin-right: 8px;
-    margin-bottom: 50px;
     
 }
 .list-btn .item:last-child {
@@ -593,8 +596,7 @@ margin-left: 70px;
     border: none;
     cursor: pointer;
 
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .filter-btn:hover, .filter-btn:focus, .filter-btn:active {
@@ -637,6 +639,7 @@ margin-bottom: 30px;
 .project-link{
     text-decoration: none;
     color: inherit;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .title-filter {
     font-weight: 700;
